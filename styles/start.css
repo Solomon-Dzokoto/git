@@ -1,0 +1,97 @@
+main{margin-top: 60px;
+  background-image: url("../images/bg-2.jpg");
+width: 370px;
+margin-left: 35%;
+height: 640px;
+margin-bottom: 200px;
+}
+.top-section{
+  font-size: 12px;
+  background-color: #fff;
+  padding: 10px 8px;
+  margin-top: 80px;
+  border-radius: 15px;
+}
+.container{
+  margin-right: 15px;
+margin-left: 15px;
+background-image: url("images/BG-36.png");
+
+}
+.middle-section{
+  display: flex;
+  flex-direction: column;
+margin-top: 15px;
+border-radius: 20px;
+background-image: url("images/bg-2.jpg");
+padding: 12px;
+border: 5px solid white;
+}
+.first-middle-section{
+  display: flex;
+  justify-content: space-between;
+}
+.first-middle-section div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.first-middle-section div img{
+  width: 25px;
+  margin-bottom: 10px;
+}
+.second-middle-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.second-middle-section div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.second-middle-section div img{
+  width: 25px;
+}
+.second-middle-section div p{
+  font-size: 12px;
+}
+.second-middle-section div span{
+  font-size:15px;
+}
+ul{
+  font-size: 12px;
+  padding-left: 15px;
+}
+.bottom-section{
+height: 330px;
+margin-top: 30px;
+border: 8px solid white;
+border-radius: 10px;
+background-image: url("../images/bg-2.jpg");
+
+}
+.bottom-section img{
+  width: 320px;
+}
+.bottom-section div::before{
+  display: block;
+  position: absolute;
+  bottom:20px;
+  left: 570px;
+  width: 100px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgb(8, 26, 228);
+  content: '';
+  animation: blink 1s infinite;
+  transition:0.2s;
+}
+@keyframes blink {
+  50% {
+    opacity: 0.5; /* Half opacity for the blink effect */
+  }
+}
+

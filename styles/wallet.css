@@ -1,0 +1,46 @@
+main{
+  margin-top: 80px;
+}
+.top-info p{
+text-align: center;
+font-size: 13.5px;
+font-weight: 500;
+}
+.input-values{
+  display: flex;
+  flex-direction: column;
+}
+.input-values input,select{
+  margin-top: 10px;
+  padding: 15px 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  background-color: #e3e3e3;
+}
+.withdrawal-container{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  padding-top: 0px;
+}
+.submit{
+  margin-top:15px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #74AAF0;
+  padding: 10px;
+  cursor: pointer;
+  border: 0px;
+}
+label{
+  font-size: 12px;
+  margin-bottom: -5px;
+  margin-top:15px ;
+}

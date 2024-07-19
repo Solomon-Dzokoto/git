@@ -1,0 +1,92 @@
+main{
+  width: 340px;
+}
+.tail{
+  gap:20px
+}
+.main-container{
+  background-color: white;
+  padding: 18px 8px;
+  border-radius: 10px;
+}
+h2{
+  text-align: center;
+}
+.top-section{
+  background-image: url("../images/bg-2.jpg");
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  background-size: cover;
+  border-radius: 15px;
+  padding :8px;
+}
+.vip-level-details{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border-radius: 20px;
+      gap:35px;
+      padding: px;
+   box-sizing: border-box;
+   margin: 2px;
+  
+
+}
+.vip-level-details p{
+font-size: 10px;
+font-weight: 800;
+text-align: center;
+}
+.vip-level-details img{
+  width: 25px;
+}
+h4{
+  font-size: 13px;
+}
+.inner-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-section{
+  background-image: url("images/bg-2.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  padding :8px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.bottom-section-containers{
+ display: flex;
+ flex-direction: column;
+ background-color: #fff;
+ border-radius: 10px;
+ box-sizing: border-box;
+ padding: 10px;
+
+}
+.container-top  small{
+  font-size: 12px;
+}
+.container-bottom small{
+  font-size: 10px;
+  margin-top: 10px;
+} 
+.container-bottom ,.container-top {
+  display: flex;
+  justify-content: space-between;
+}
+.container-bottom img{
+  width: 25px;
+  margin-right: -20px;
+}
+.small-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

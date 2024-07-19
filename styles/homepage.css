@@ -1,0 +1,243 @@
+@import url(https://db.onlinewebfonts.com/c/d05c19ccecf7003d248c60ffd6b5e8f7?family=Binance+PLEX); 
+
+@media screen and (min-width: 1200px) {
+  body {
+      padding: 0 450px;
+  }
+
+  .inner-header {
+      padding-left: 450px;
+      padding-right: 450px;
+  }
+
+  .footer-container {
+      padding-left: 450px;
+      padding-right: 450px;
+  }
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Binance PLEX";
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  height: 100%;
+  background-image: url("../images/BG-36.png");
+}
+
+header{
+display:flex;
+box-sizing:border-box;
+align-items:center;
+justify-content:space-between;
+background-color:white;
+height:60px;
+position: fixed;
+top:0;
+width: 100%;
+padding: 0 15px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+header img{
+  width: 100px;
+}
+header .label{
+  font-size: 14px;
+  color: white;
+  padding: 5px 15px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 0, 0.8);
+}
+main{ width:300px;
+  margin-top: 90px;
+  margin-left: 39%;
+  margin-bottom:80px;
+ display: flex;
+ flex-direction:column;
+ gap: 20px;
+ justify-content:space-between;
+ box-sizing:border-box;
+}
+main .container-title div{
+  display:flex;
+  gap:10px;
+  margin-top: 0;
+  font-size:18px;
+  font-weight:bold;
+  margin-top: 2px;
+}
+.VIP span{
+  color:#9A9D61;
+  font-size:17px;
+  font-weight: bold;
+}
+main .container-title img{
+  width: 25px;
+}
+main .note img{
+  width: 20px;
+  margin-right: 8px;
+}
+
+.middle-info {
+  display: flex;
+  flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  font-size:14px;
+  background-color:white;
+  padding:25px 16px;
+  border-radius: 12px;
+  } 
+
+.middle-info div{
+
+  display: flex;
+  flex-direction: column;
+    gap: 5px;
+    align-items: center;}
+.VIP{background-color: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #808080;
+  height:205px;
+}
+.VIP p{
+  margin-left:5px;
+  margin-top:15px;
+  font-size:14px;
+}
+
+
+.nav-names{
+  font-size:12px;
+}
+    
+main .note{
+  display: flex;
+}
+.nav-img{
+  width: 25px;
+}
+main .level div img{
+  width: 50px;
+}
+main .level div{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+ background-color: #fff;
+ padding:0 8px;
+ border-radius :10px;
+
+}
+.vip-level {
+  border: 1px solid transparent;
+ height: 68px;
+}
+.vip-level.active{
+  border-color: lightblue;
+}
+.vip-level.hiden{
+  display: none;
+}
+
+.VIP .level-text p{
+  margin-left: -44px;
+  font-size:15px
+}
+
+a{
+  text-decoration:none;
+  font-size: 13px;
+}
+h2{
+margin-left:-210px;
+color:rgb(205, 127, 50);
+font-size:18px;
+margin-bottom:-4px
+}
+.level-text{display: flex;
+ flex-direction:column; 
+ margin-left: px; 
+}
+.Partners{
+  margin-top: 20px;
+    box-shadow: 0 0px 10px #808080;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 10px;
+    background-color: white;
+    margin-bottom: 100px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.partners-info div{
+  width: 85px;
+  height: 50px;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.partners-img{
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+}
+
+.sponsors{
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.middle-info a{
+  color:black;
+}
+.tail-items{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left:14px;
+  margin-bottom:5px;
+  margin-top:-3px;
+  border-radius:8px;
+}
+.tail-items.active{
+ background-color:#8CB9FF;
+}
+.tail-items.hidden{
+  display:none;
+}
+
+.tail-objects{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:10px;
+  padding-top:10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.tail img{
+  width:30px;
+  border-radius:14px
+}
+p{margin-top: 2px;
+}
+.tail-items a{
+  color:black;
+}

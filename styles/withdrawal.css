@@ -1,0 +1,54 @@
+.withdrawal-process{
+   margin-top:15px ;
+  padding-bottom:10px;
+  font-size: 13px;
+}
+.bottom-section{
+  padding:15px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.bottom-section p{
+  margin-top: -15px;
+}
+.bottom-section input{
+  margin-top: 10px;
+  padding: 15px 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  background-color: #e3e3e3;
+}
+.customer-service{
+  margin-top: 0px;
+}
+.tail{
+  display: flex;
+  gap:30px;
+}
+.tail-items a img{
+  padding-top: 10px;
+}
+.tail-items a p{
+ padding-bottom: 30px;
+}
+button{
+  height:40px;
+    text-align: center;
+    padding:0px -10px;
+  color: grey;
+}
+.btn.active{
+  border-bottom:1px solid black;
+  color:black;
+}
+.btn.hidden{
+  display:none;
+}

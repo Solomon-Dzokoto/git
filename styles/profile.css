@@ -1,0 +1,177 @@
+@import url(https://db.onlinewebfonts.com/c/d05c19ccecf7003d248c60ffd6b5e8f7?family=Binance+PLEX); 
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Binance PLEX";
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  height: 100%;
+  background-image: url("../images/BG-36.png");
+}
+
+header{
+  display:flex;
+box-sizing:border-box;
+align-items:center;
+justify-content:center;
+background-color:white;
+height:60px;
+position: fixed;
+top:0;
+width: 100%;
+padding: 0 15px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+header a img{
+width:13px;
+margin-left: -200px;
+}
+h1{
+  font-size:20px;
+  margin-left:-160px
+}
+.tail-objects{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:30px;
+  padding-top:10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.tail img{
+  width:30px;
+  border-radius:14px
+}
+p{margin-top: 2px;
+}
+main img{
+width:35px;
+border-radius:20px;
+}
+.bronze-img{
+  width: 25px;
+  
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+  margin-top: 60px;
+  margin-left: 37%;
+  width: 335px;
+  margin-bottom:90px;
+ 
+  box-sizing:border-box;
+}
+main .contain{
+ background-color: #fff;
+ margin-top: 20px;
+ box-sizing:border-box;
+ padding: 5px 0;
+ border-radius:15px;
+}
+.main-profile-container{
+  background-image:url("../images/bg-2.jpg");
+  object-fit:cover;
+  display:flex;
+  flex-direction:column;
+  padding:15px;
+  border-radius:10px;
+  margin:10px;
+  
+  
+
+}
+.first-section{display:flex;
+  align-items:center;
+  gap:100px
+
+}
+.profiles{
+ display: flex;
+ align-items:center;
+ gap: 5px;
+}
+.code{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.code div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.code div img{
+  width: 24px;
+  margin-top: 8px;
+}
+.code p{
+  font-size:12px;
+  margin-bottom:-10px;
+}
+.invite-code{
+  margin-left: -13px;
+}
+.second-section p{
+  margin-top: 15px;
+  font-size: 14px;
+}
+.third-section{
+  margin-top: 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.profit{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+.third-section p{
+  font-size:12px;
+}
+.third-section h3{
+  margin-top: -10px;
+  font-size:14px;
+}
+.main-container-detaails{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin: 10px;
+  background-color: #DEEAFF;
+  border-radius:10px;
+}
+.left-section{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  margin-left: 10px;
+}
+.left-section p{
+  margin-top:14px ;
+}
+.left-section img{
+  width: 25px;
+}
+.main-container .right-section img{
+  width: 24px;
+  margin-right: 10px;
+}
+.main-container div small{
+  margin-left: 25px;
+}
+a{
+  text-decoration:none;
+  color:black;
+}

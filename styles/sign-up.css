@@ -1,0 +1,139 @@
+@media screen and (min-width: 1200px) {
+  body {
+      padding: 0 450px;
+  }
+
+  .inner-header {
+      padding-left: 28.1rem;
+      padding-right: 28.1rem;
+  }
+
+  .footer-container {
+      padding-left: 28.1rem;
+      padding-right: 28.1rem;
+  }
+}
+body {
+ 
+  background-size: cover;
+  background: radial-gradient(circle at 12.3% 19.3%,#ffffff  10%,#5fd1f9  55%, #5558da  100%);
+  box-sizing: border-box;}
+  
+
+
+
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 52px;
+}
+.input-info{
+  padding:8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid rgba(3, 3, 3, 0.1);
+  border-radius: 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.input-lane-x{
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  justify-content: space-between
+}
+
+.label{
+  font-size: 12px;
+  font-weight: 500;
+}
+.input-form{
+  padding: 8px 0px;
+  border: 0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+}
+.button-input{
+  display: flex;
+  justify-content: space-between;
+  margin: 12px ;
+}
+.btn{
+  padding: 14px 2.5rem;
+  border-radius: 7px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.register-btn{
+  background-color: rgb(25, 81, 214);
+  color: white;
+}
+.login-btn{
+  background-color: #d3d3d3;
+  color: black;
+}
+.forgot-password{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+}
+a{
+  text-align: center;
+  text-decoration: none;
+  color: rgb(15, 13, 13);
+}
+.heading-content{
+  text-align: center;
+  padding: 0px 10px;
+}
+.heading-content-text{
+  font-size: 15px;
+}
+.login-form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 7px;
+}
+.copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+}
+.terms { display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.form-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.toggle-password{
+  height: 18px;
+  width:18px
+}
+.input-field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viden login</title>
+  <link rel="stylesheet" href="../styles/log-in.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <section >
+    <article class="head">
+      <div class="logo"><img src="../images/logo.png" alt="viden"></div>
+      <div class="title">
+        <h3> Hi Welcome</h3>
+        <p>Sign up or Login Today to shop and earn cash!</p>
+        <p>Withdrawal to bank account</p>
+        <p>(Limited to one mobile number)</p>
+      </article>
+    <article> 
+       <form action="homepage.html" id="loginForm">
+         <div class="details">
+            <div class="username">
+            <label class="info" for="Username">Username:</label>
+            <input class="user-iput" type="text" placeholder="Username" id="username">
+          </div>
+          <div class="password">
+              <label class="info" for="Password">Password:</label>
+              <div class="i">
+                <input class="pass-input"type="password"  placeholder="Password" id="password">
+                <div id="toggleDiv" class="img">
+                  <img id="toggleImage" class="eye-image" src="../images/eye-close.svg" alt="eye-close">
+                </div>
+              </div>
+              
+            </div>
+            <div class="bellow-section">
+              <div>
+                <button class="btn btn1" onclick="">Register</button>
+                <button type="submit" class="btn2" onclick=" nextPage()">Login</button>
+              </div>
+            </div>
+       </form>
+        <div class="forget-password">
+        <a href="">Forget Password</a>
+        </div>
+      </article>
+    </section> 
+    <div class="small">Copyright  © 2024 Viden | All Rights Reserved</div>
+  <script>
+  const usernameInput=document.getElementByTd('username')
+  const passwordInput=document.getElementById('password');
+  const toggleDiv=document.getElementById('toggleDiv');
+  const toggleImage=document.getElementById('toggleImage')
+
+
+
+function handleInputChange(){
+  if(usernameInput.value && passwordInput.value){
+    document.body.style.backgroundColor=" light-dark(rgb(232, 240, 254)"
+
+    localStorage.SetItem("username",usernameInput.value);
+    localStorage.setItem("password",passwordInput.value);
+  }else{
+    document.body.style.backgroundColor="white";
+  }
+}
+usernameInput.addEventListener("input",handleInputChange);
+passwordInput.addEventListener("input",handleInputChange);
+
+toggleDiv.addEventListener('click',()=>{
+ if(passwordInput.type==='password')
+ {passwordInput.type='text';
+  toggleImage.src="../images/eye-close.svg"
+ }else{
+  passwordInput.type="password";
+  toogleImage.src="../images/eye-close.svg";
+ }
+  }
+  );
+  window.addEventListener("load", () => {
+  usernameInput.value = localStorage.getItem("username") || "";
+  passwordInput.value = localStorage.getItem("password") || "";
+
+  if (usernameInput.value && passwordInput.value) {
+    document.body.style.backgroundColor = "light-dark(rgb(232, 240, 254)";
+  }
+});
+  </script>
+    
+
+    

@@ -1,0 +1,141 @@
+:root{
+  --default-color: black;
+  --light-dark:#bbbfbf;
+  --light-color: #ffffff;
+  --blue-color:#114CD8;
+}
+*{
+  text-decoration: none;
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background: radial-gradient(circle at 12.3% 19.3%, white 10%, #5acdf6 55%, #6163e3 100%);
+  background-position: cover;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Binance PLEX',arial;
+  font-size: 15px;
+  box-sizing:border-box;
+}
+section{
+  display:flex;
+  justify-content: space-between;
+ flex-direction:column;
+ margin-top:3rem;
+ width:360px;
+ height:730px;
+}
+section a{
+  color: var(--default-color);
+}
+.head{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+h3{
+  font-size:18px;
+  margin-bottom: 1rem
+}
+
+.title{
+  margin-top:30px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+}
+
+form{
+  height: 320px;
+  padding:17px;
+  display: grid;
+  background-color:var( --light-color);
+  border-radius:7px;
+  margin-bottom: rem;
+}
+.details{
+  display:flex;
+  flex-direction:column;
+  gap:1.2rem
+}
+.details .username ,.password{
+  border:1px solid var(--light-dark);
+  display:flex;
+  flex-direction:column;
+  height:74px;
+  border-radius: 5px;
+  width:320px;
+  padding-left:5px;
+}
+
+input{
+  font-size: 15px;
+border:none;
+background-color:transparent;
+padding:5px;
+border-radius:4px;
+outline:none;
+}
+.pass-input{
+  width:285px;
+}
+.info{
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:5px;
+  padding: 5px 0;
+}
+.eye-image{
+  width :18px;
+}
+.i{
+  display: flex;
+}
+.bellow-section{
+  margin-top: 15px;
+}
+.bellow-section div{
+display:flex;
+justify-content:space-between;
+}
+button{
+  padding: 12px 2.5rem;
+  font-size: 16px;
+  border:1px solid transparent;
+  border-radius:8px;
+  font-weight:700;
+  font-size:16px;
+  cursor: pointer;
+}
+.btn1{
+  background-color:var(--blue-color);
+  color:var(--light-color);
+  margin-left: 16px;
+}
+.btn2{
+margin-right: 16px;
+}
+.forget-password{
+  display: flex;
+  justify-content:center;
+  color: var(--default-color);
+}
+.small{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+    
+
